@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +32,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.produtos {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.produtos img {
+  width: 60%;
+}
+
+.produto{
+  padding: 60px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 60px;
+  color: #282c34;
+}
+
+.produto .name{
+  font-size: 20px;
+  color: blue;
+  
+}
+
+.produto .cost{
+  color: green;
 }
